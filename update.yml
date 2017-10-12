@@ -1,0 +1,6 @@
+- hosts: nginx_front
+  sudo: yes
+  # vars_files:
+  #   - defaults/main.yml
+  roles:
+    - nginx

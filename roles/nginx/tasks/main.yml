@@ -1,0 +1,4 @@
+---
+# - include: install_devrpms.yml
+# - include: install_nginx.yml
+- include: update_nginx_conf.yml tags=update_conf

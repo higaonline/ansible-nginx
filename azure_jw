@@ -1,0 +1,14 @@
+[redis-master]
+10.3.0.7
+
+[redis-slave]
+10.3.0.8
+10.3.0.9
+
+[redis-sentinel]
+10.3.0.8 redis_sentinel=True
+10.3.0.9 redis_sentinel=True
+
+[nginx_front]
+10.3.0.7
+10.3.0.8

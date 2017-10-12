@@ -1,0 +1,12 @@
+---
+nginx:
+ base_conf_dir: /opt/nginx/conf
+ listen_main_port: 80
+redis:
+ primary: 10.3.0.7
+ secondary: 10.3.0.8
+ port: 6379
+ primary_weight: weight=10
+ secondary_weight: weight=1
+ primary_fail_timeout: fail_timeout=5s
+ secondary_fail_timeout: fail_timeout=5s
